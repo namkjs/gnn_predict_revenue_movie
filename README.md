@@ -1,6 +1,28 @@
-## Movie Revenue Prediction using LightGBM
-### Overview
-  Welcome to the Movie Revenue Prediction project using LightGBM. This project focuses on predicting the revenue of movies based on data from The Movie Database (TMDB). The goal is to build a machine learning model that can accurately estimate the potential revenue of a movie given various features.
+# Movie Revenue Prediction Project
 
-### Dataset
-  The dataset used in this project is sourced from Kaggle and is available at [TMDB Box Office Prediction](https://www.kaggle.com/c/tmdb-box-office-prediction/data). It contains a comprehensive set of features related to movies, including budget, genres, release dates, and more.
+## Overview
+This project aims to predict the revenue of movies using the TMDB Box Office Dataset. It leverages advanced machine learning models, including Graph Neural Networks (GNN) and LightGBM, to analyze and predict box office outcomes.
+
+## Features
+- **Data Preprocessing:** Cleansing and preparing the TMDB dataset for analysis.
+- **Feature Engineering:** Extracting and selecting relevant features that influence movie revenues.
+- **Model Training:** Utilizing GNN and LightGBM models to predict movie revenues based on the processed data.
+- **Evaluation:** Assessing the accuracy and effectiveness of the models.
+
+## Technologies Used
+- **Python:** Primary programming language for data processing and modeling.
+- **Jupyter Notebook:** Interactive computing environment for coding and visualization.
+- **LightGBM:** Gradient boosting framework that uses tree-based learning algorithms.
+- **Graph Neural Networks:** Utilized for leveraging relational information among data points.
+
+## Getting Started
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/namkjs/gnn_predict_revenue_movie.git
+2. **Install Dependencies**
+   pip install -r requirements.txt
+3. **Run the Notebook**
+   Open the Jupyter Notebook in your environment and execute the cells to see the results.
+
+## Dataset
+The TMDB Box Office Dataset is utilized in this project, containing various features such as movie genres, budgets, release dates, and more, which are crucial for revenue predictions.
